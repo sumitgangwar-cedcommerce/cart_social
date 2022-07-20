@@ -1,0 +1,64 @@
+#login{
+    margin-top: 5%;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 2vw;
+    padding-left: 8vw;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login table{
+    font-size: medium;
+    width: 100%;
+}
+#login input{
+    width: 70%;
+    outline:none;
+    border: none;
+    border-bottom:1.5px solid black;
+}
+#login table td{
+    padding:0.5vw;
+}
+
+#login button[type="submit"]{
+    width: 82%;
+    border:none;
+    padding: 1vw;
+    background-color:#1877F2;
+    color: #fff;
+    border-radius:5px;
+    cursor: pointer;
+}
+h4 button{
+    border:none;
+    color:#1877F2;
+    background: transparent;
+    font-size:3vh;
+    font-weight:bold;
+}
+
+.Login_header{
+    background-color: #1877F2;
+    color: #fff;
+    padding:2vw;
+    text-align: center;
+    font-weight: 900;
+    font-family: cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media screen and (max-width:700px){
+    #login{
+        width:92%;
+        margin: 2vw;
+        padding-left: 0;
+        padding: 2vw 0vw 2vw 2vw;
+    }
+    #login table{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
